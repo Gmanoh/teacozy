@@ -23,6 +23,15 @@ header{
   border-bottom: 1px solid seashell;
   padding: 0 10px;
 }
+span a{
+    color: seashell;
+    font-size: 22px;
+    padding: 20px 10px;
+}
+
+nav span{
+  padding-right: 20px;
+}
 
 header img{
   height: 50px;
@@ -60,6 +69,7 @@ header img{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
 }
 
 .tilesgroup{
@@ -67,6 +77,10 @@ header img{
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
+}
+
+.tiletitle h2, .tiletitle h4,.herotext h4,.herotext h2{
+  padding:10px;
 }
 
 .tile{
